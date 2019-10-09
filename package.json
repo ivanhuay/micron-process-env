@@ -1,0 +1,27 @@
+{
+  "name": "micron-process-env",
+  "version": "0.0.1",
+  "description": "Micron test ",
+  "main": "index.js",
+  "scripts": {
+    "test": "micron-runner --end 15100 --step 1000 -o docs -r 3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanhuay/micron-process-env.git"
+  },
+  "keywords": [
+    "micron",
+    "test",
+    "benchmark"
+  ],
+  "author": "ivanhuay@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanhuay/micron-process-env/issues"
+  },
+  "homepage": "https://github.com/ivanhuay/micron-process-env#readme",
+  "dependencies": {
+    "micron-runner": "0.0.12"
+  }
+}
